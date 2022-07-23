@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+}
+
+#paineis__sobre {
+    margin-top: 20px;
+}
+
+.cabecalho {
+    background-image: url(./img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 9px;
+    color: #FFFFFF;
+    left: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.6s;
+    width: 70%;
+}
+
+.card-header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.titulo__depoimentos {
+    background-color: #0275D8;
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.select-contato,
+.grupo-radio {
+    width: 50%;
+}
+
+.radio-flex {
+    align-items: center;
+    display: flex;
+}
+
+.rodape {
+    background-color: #333333;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.rodape address:last-child {
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-width:768px){
+       #paineis__sobre {
+        margin-top: 0;
+    }
+
+}
+
+
+@media screen and (min-width:992px) {
+    .card-header{
+        left: 0;
+        transform: translate(0, -10%);
+        width: 50%;
+    }
+
+    .card {
+        position: relative;
+        height: 100%;
+    }
+}
